@@ -19,11 +19,11 @@ public class Main {
         }
 
         double sumOfLargest = largestNumber;
+        double avg=(num1+num2+num3)/3;
         System.out.println("The sum of the largest number is: " + sumOfLargest);
 
+        System.out.println("Average of the three sum is : "+avg);
         sc.close();
     }
 }
 
-    }
-}
